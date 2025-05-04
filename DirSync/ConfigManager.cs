@@ -286,6 +286,7 @@ namespace DirSync
                 else
                 {
                     Console.WriteLine($">>>Invalid argument format: {arg}. Correct format is --key=value");
+                    Console.WriteLine($"Use --help or --h for help.");
                     Environment.Exit(1);
                 }
             }

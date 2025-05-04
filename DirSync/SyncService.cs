@@ -48,7 +48,7 @@
             Logger.LogMessage("================================================", true);
 
             //
-            ClenupFiles();
+            CleanUpFile();
 
             return syncSuccessful;
         }
@@ -209,7 +209,7 @@
             return status.Success;
         }
 
-        private void ClenupFiles()
+        private void CleanUpFile()
         {
             if (!_operationsWerePerformed)
             {
